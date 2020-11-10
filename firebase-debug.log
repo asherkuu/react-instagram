@@ -1,0 +1,28 @@
+[debug] [2020-10-22T12:30:51.025Z] ----------------------------------------------------------------------
+[debug] [2020-10-22T12:30:51.027Z] Command:       /usr/bin/node /usr/local/bin/firebase serve
+[debug] [2020-10-22T12:30:51.027Z] CLI Version:   8.13.1
+[debug] [2020-10-22T12:30:51.027Z] Platform:      linux
+[debug] [2020-10-22T12:30:51.027Z] Node Version:  v10.19.0
+[debug] [2020-10-22T12:30:51.027Z] Time:          Thu Oct 22 2020 21:30:51 GMT+0900 (대한민국 표준시)
+[debug] [2020-10-22T12:30:51.027Z] ----------------------------------------------------------------------
+[debug] [2020-10-22T12:30:51.027Z] 
+[debug] [2020-10-22T12:30:51.033Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-22T12:30:51.033Z] > authorizing via signed-in user
+[debug] [2020-10-22T12:30:51.033Z] [iam] checking project p-instagram for permissions ["firebase.projects.get"]
+[debug] [2020-10-22T12:30:51.036Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/p-instagram:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-10-22T12:30:52.329Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 22 Oct 2020 12:30:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=758","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-22T12:30:52.333Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/p-instagram  
+ 
+[debug] [2020-10-22T12:30:53.264Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 22 Oct 2020 12:30:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/home/asher/Documents/Visual_Studio/p-instagram'...
+[info] 
+[debug] [2020-10-22T12:30:53.272Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/p-instagram/webApps/-/config  
+ 
+[debug] [2020-10-22T12:30:54.845Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 22 Oct 2020 12:30:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [22/Oct/2020:12:30:56 +0000] "GET /index.html HTTP/1.1" 200 1733 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Oct/2020:12:30:56 +0000] \"GET /index.html HTTP/1.1\" 200 1733 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Oct/2020:12:32:56 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" - - "http://localhost:5000/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Oct/2020:12:32:56 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" - - \"http://localhost:5000/index.html\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [22/Oct/2020:12:32:56 +0000] "GET /%PUBLIC_URL%/favicon.ico HTTP/1.1" - - "http://localhost:5000/index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [22/Oct/2020:12:32:56 +0000] \"GET /%PUBLIC_URL%/favicon.ico HTTP/1.1\" - - \"http://localhost:5000/index.html\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36\""}}
